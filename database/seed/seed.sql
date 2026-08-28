@@ -1,0 +1,12 @@
+-- Seed Data for Development
+INSERT INTO users (id, email, phone, role) VALUES
+('00000000-0000-0000-0000-000000000001', 'admin@fooddelivery.com', '+10000000001', 'ADMIN'),
+('00000000-0000-0000-0000-000000000002', 'restaurant@fooddelivery.com', '+10000000002', 'RESTAURANT'),
+('00000000-0000-0000-0000-000000000003', 'rider@fooddelivery.com', '+10000000003', 'RIDER'),
+('00000000-0000-0000-0000-000000000004', 'customer@fooddelivery.com', '+10000000004', 'CUSTOMER');
+
+INSERT INTO profiles (id, full_name) VALUES
+('00000000-0000-0000-0000-000000000001', 'System Admin'),
+('00000000-0000-0000-0000-000000000002', 'Chef Mario'),
+('00000000-0000-0000-0000-000000000003', 'Speedy Rider'),
+('00000000-0000-0000-0000-000000000004', 'John Doe');
